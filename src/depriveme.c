@@ -70,7 +70,7 @@ void handle_timer(AppContextRef ctx, AppTimerHandle handle, uint32_t cookie) {
       if (AppStatus == 2){
         text_layer_set_text(&titleLayer, "Timer Set");
         text_layer_set_font(&minutesLayer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
-        text_layer_set_text(&minutesLayer, "Do Some Work Now");
+        text_layer_set_text(&minutesLayer, "Do Some Work!");
         timer_handle = app_timer_send_event(ctx, TIMER * 60000, 2);
       }else{
         timer_handle = app_timer_send_event(ctx, 1000, 1);
@@ -89,7 +89,8 @@ void handle_timer(AppContextRef ctx, AppTimerHandle handle, uint32_t cookie) {
       timer_handle = app_timer_send_event(ctx, 500, 3);
       text_layer_set_text(&minutesLayer, itoa(pulseTimer));
     }else{
-      text_layer_set_text(&titleLayer, "Timer Reset:");
+      text_layer_set_text(&titleLayer, "Timer Reset");
+      text_layer_set_text(&minutesLayer, "");
       timer_handle = app_timer_send_event(ctx, TIMER * 60000, 2);
       pulseTimer = 5;
     }
