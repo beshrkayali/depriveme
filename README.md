@@ -7,7 +7,7 @@ The is the first time I develop for Pebble and C in general.
 ## Running the App
 
 - Clone this repo and CD to the directory
-- Create a symlink:
+- Symlink the project:
 
 		create_pebble_project.py --symlink-only ~/path/to/pebble/sdk .
 
