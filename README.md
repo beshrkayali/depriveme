@@ -31,3 +31,6 @@ The is the first time I develop for Pebble and C in general.
 
 Here are some pictures of the app:
 
+![Home Screen](http://i.imgur.com/q9r9FNz.jpg)
+
+![Pulsing](http://i.imgur.com/zClp9Zz.jpg)
