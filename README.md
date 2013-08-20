@@ -1,8 +1,15 @@
 # Deprive Me
 
+![Deprive Me](http://i.imgur.com/9uaWi7r.jpg)
+
+
 A [Pebble](http://getpebble.com) app that deprives you from sleeping. Set the timer (5 to 60 minutes) and Pebble will pulse on each occurrence.
 
 The is the first time I develop for Pebble and C in general.
+
+## Download the App
+
+- You can download a pbw file from [My Pebble Faces](http://www.mypebblefaces.com/apps/6940/5557/)
 
 ## Running the App
 
